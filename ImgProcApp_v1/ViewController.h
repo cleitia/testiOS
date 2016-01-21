@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "ImageProcInfoViewController.h"
+#include "EdgeDetect.hpp"
 
 @class ImageProcessing;
 @interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -27,6 +28,7 @@
 -(IBAction)WhiteBlackImage; // 그레이 스케일 변화
 -(IBAction)inverseImage; // 이미지 반전
 -(IBAction)TrackingImage; // 윤곽선 추출
+-(IBAction)OpenCVCanny; // C++ STL OpenCV 함수 호출
 @property (strong, nonatomic) ImageProcInfoViewController *pImageProcInfoViewController;
 @end
 

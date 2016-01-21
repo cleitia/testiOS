@@ -14,7 +14,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9v5-5I-Zcj">
@@ -45,7 +45,7 @@
                                             <action selector="saveImage" destination="BYZ-38-t0r" id="CPL-h3-IZK"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="107" style="plain" systemItem="fixedSpace" id="BCI-M8-G73"/>
+                                    <barButtonItem width="67" style="plain" systemItem="fixedSpace" id="BCI-M8-G73"/>
                                     <barButtonItem title="회색조" id="7rl-o4-YQF">
                                         <connections>
                                             <action selector="WhiteBlackImage" destination="BYZ-38-t0r" id="cZX-6Y-Fgi"/>
@@ -59,6 +59,11 @@
                                     <barButtonItem title="윤곽선" id="egx-1q-Nb6">
                                         <connections>
                                             <action selector="TrackingImage" destination="BYZ-38-t0r" id="MOI-tt-8Xo"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem title="C++" id="3fD-jM-M1W">
+                                        <connections>
+                                            <action selector="OpenCVCanny" destination="BYZ-38-t0r" id="fzP-FI-SLm"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
