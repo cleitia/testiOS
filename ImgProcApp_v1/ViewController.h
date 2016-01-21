@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "ImageProcInfoViewController.h"
 #include "EdgeDetect.hpp"
+#import <ELCImagePickerHeader.h>
 
 @class ImageProcessing;
 @interface ViewController : UIViewController <UIImagePickerControllerDelegate, UINavigationControllerDelegate>
@@ -24,6 +25,7 @@
 
 -(IBAction)PushSetupClick; // 앱정보
 -(IBAction)runGeneralPicker; // 사진 가져오기
+-(IBAction)runELCPicker; // 다중 선택 앨범 실행하기
 -(IBAction)saveImage; // 현재 사진 카메라 롤에 저장하기
 -(IBAction)WhiteBlackImage; // 그레이 스케일 변화
 -(IBAction)inverseImage; // 이미지 반전

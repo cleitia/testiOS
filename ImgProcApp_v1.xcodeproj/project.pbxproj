@@ -19,6 +19,7 @@
 		3F984D971C50A4E3000BE204 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F984D961C50A4E3000BE204 /* cat.jpeg */; };
 		3F984D9A1C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F984D991C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a */; };
 		3F984D9D1C50C241000BE204 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F984D9C1C50C241000BE204 /* opencv2.framework */; };
+		3F9AE3FA1C50DAA900B87691 /* ELCImagePicker in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AE3F91C50DAA900B87691 /* ELCImagePicker */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		3F984D991C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg.a; sourceTree = "<group>"; };
 		3F984D9B1C50C1C5000BE204 /* EdgeDetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EdgeDetect.hpp; path = ../../../Libs/testLibs/EdgeDetect.hpp; sourceTree = "<group>"; };
 		3F984D9C1C50C241000BE204 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Libs/opencv2iOS/opencv2.framework; sourceTree = "<group>"; };
+		3F9AE3F91C50DAA900B87691 /* ELCImagePicker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ELCImagePicker; path = ../../Libs/ELCImagePicker; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		3F984D671C5069AB000BE204 = {
 			isa = PBXGroup;
 			children = (
+				3F9AE3F91C50DAA900B87691 /* ELCImagePicker */,
 				3F984D981C50C193000BE204 /* Frameworks */,
 				3F984D961C50A4E3000BE204 /* cat.jpeg */,
 				3F984D721C5069AB000BE204 /* ImgProcApp_v1 */,
@@ -174,6 +177,7 @@
 				3F984D831C5069AB000BE204 /* LaunchScreen.storyboard in Resources */,
 				3F984D921C509AA3000BE204 /* ImageProcInfoViewController.xib in Resources */,
 				3F984D971C50A4E3000BE204 /* cat.jpeg in Resources */,
+				3F9AE3FA1C50DAA900B87691 /* ELCImagePicker in Resources */,
 				3F984D801C5069AB000BE204 /* Assets.xcassets in Resources */,
 				3F984D7E1C5069AB000BE204 /* Main.storyboard in Resources */,
 			);

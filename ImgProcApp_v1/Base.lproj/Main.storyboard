@@ -35,17 +35,22 @@
                             <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xo4-Uu-Jhy">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                                 <items>
-                                    <barButtonItem title="가져오기" id="9vZ-cQ-QEi">
+                                    <barButtonItem systemItem="add" id="9vZ-cQ-QEi">
                                         <connections>
                                             <action selector="runGeneralPicker" destination="BYZ-38-t0r" id="Ss7-Ez-wwt"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="저장" id="5dZ-pv-WaC">
+                                    <barButtonItem systemItem="organize" id="RbK-mM-4Wd">
+                                        <connections>
+                                            <action selector="runELCPicker" destination="BYZ-38-t0r" id="37i-b3-c5d"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem systemItem="reply" id="5dZ-pv-WaC">
                                         <connections>
                                             <action selector="saveImage" destination="BYZ-38-t0r" id="CPL-h3-IZK"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem width="67" style="plain" systemItem="fixedSpace" id="BCI-M8-G73"/>
+                                    <barButtonItem width="64" style="plain" systemItem="fixedSpace" id="BCI-M8-G73"/>
                                     <barButtonItem title="회색조" id="7rl-o4-YQF">
                                         <connections>
                                             <action selector="WhiteBlackImage" destination="BYZ-38-t0r" id="cZX-6Y-Fgi"/>
@@ -61,7 +66,7 @@
                                             <action selector="TrackingImage" destination="BYZ-38-t0r" id="MOI-tt-8Xo"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="C++" id="3fD-jM-M1W">
+                                    <barButtonItem title="CSTL" id="3fD-jM-M1W">
                                         <connections>
                                             <action selector="OpenCVCanny" destination="BYZ-38-t0r" id="fzP-FI-SLm"/>
                                         </connections>

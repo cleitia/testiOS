@@ -50,6 +50,11 @@
     [self presentViewController:picker animated:YES completion:nil];
 }
 
+- (IBAction)runELCPicker
+{
+    
+}
+
 - (IBAction)saveImage // 현재 사진을 카메라 롤에 저장합니다.
 {
     UIImage *image = pImageView.image;
