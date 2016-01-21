@@ -112,17 +112,16 @@
 - (IBAction)OpenCVCanny
 {
     // get cv::Mat type image from UIImage
-    cv::Mat inMat = [self cvMatFromUIImage: pImageView.image];
+    cv::Mat inputMat = [self cvMatFromUIImage: pImageView.image];
     
-    // now, image processing with openCV functions
-    cv::Mat grayMat, edgesMat;
-    // input BGR is converted to GRAY
-    cv::cvtColor(inMat, grayMat, CV_BGR2GRAY);
-    // Canny edge operation is performed on gray image, saved in edgesMat
-    cv::Canny(grayMat, edgesMat, 50, 150);
+    // make cv::Mat type result image
+    cv::Mat outputMat;
+    
+    // call c++ static library using OpenCV for iOS
+    outputMat = detectEdge(inputMat);
     
     // final result is converted to UIImage for display
-    UIImage *resultUIImage = [self UIImageFromCVMat:edgesMat];
+    UIImage *resultUIImage = [self UIImageFromCVMat:outputMat];
     // put into the screen
     pImageView.image = resultUIImage;
 
