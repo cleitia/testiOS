@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ImageProcessing.h"
 #include "EdgeDetect.hpp"
+#include "SIFTbyHess.h"
 
 @interface ViewController ()
 
@@ -25,6 +26,11 @@
     originImage = [UIImage imageNamed:@"cat.jpeg"];
     if (originImage == nil)
         NSLog(@"input image loading failed");
+    CSIFT test;
+    IplImage *testIplImg = 0;
+    if (!testIplImg)
+        NSLog(@"IplImage is NULL");
+    test.ExtractFeatures(testIplImg);
     [pImageView setImage:originImage];
     [super viewDidLoad];
 }
@@ -52,7 +58,6 @@
 
 - (IBAction)runELCPicker
 {
-    
 }
 
 - (IBAction)saveImage // 현재 사진을 카메라 롤에 저장합니다.

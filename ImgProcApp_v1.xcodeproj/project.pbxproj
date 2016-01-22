@@ -17,9 +17,13 @@
 		3F984D921C509AA3000BE204 /* ImageProcInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F984D901C509AA3000BE204 /* ImageProcInfoViewController.xib */; };
 		3F984D951C50A2B8000BE204 /* ImageProcessing.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F984D941C50A2B8000BE204 /* ImageProcessing.m */; };
 		3F984D971C50A4E3000BE204 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3F984D961C50A4E3000BE204 /* cat.jpeg */; };
-		3F984D9A1C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F984D991C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a */; };
 		3F984D9D1C50C241000BE204 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F984D9C1C50C241000BE204 /* opencv2.framework */; };
 		3F9AE3FA1C50DAA900B87691 /* ELCImagePicker in Resources */ = {isa = PBXBuildFile; fileRef = 3F9AE3F91C50DAA900B87691 /* ELCImagePicker */; };
+		3FC397111C51FABE00092461 /* libMakeLib_v1_0_EdgeImg_r_device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC397101C51FABE00092461 /* libMakeLib_v1_0_EdgeImg_r_device.a */; };
+		3FC397121C51FD4F00092461 /* libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3970B1C51F8F900092461 /* libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a */; };
+		3FC397131C51FD5100092461 /* libMakeLib_v1_0_EdgeImg_release.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9AE4061C51BF4700B87691 /* libMakeLib_v1_0_EdgeImg_release.a */; };
+		3FC397141C51FD5200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3970E1C51F9F200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a */; };
+		3FC3975D1C52182D00092461 /* libtestSIFTLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3975C1C52182D00092461 /* libtestSIFTLib.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,10 +43,24 @@
 		3F984D931C50A2B8000BE204 /* ImageProcessing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageProcessing.h; sourceTree = "<group>"; };
 		3F984D941C50A2B8000BE204 /* ImageProcessing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageProcessing.m; sourceTree = "<group>"; };
 		3F984D961C50A4E3000BE204 /* cat.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cat.jpeg; path = ../../Resources/cat.jpeg; sourceTree = "<group>"; };
-		3F984D991C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg.a; sourceTree = "<group>"; };
 		3F984D9B1C50C1C5000BE204 /* EdgeDetect.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EdgeDetect.hpp; path = ../../../Libs/testLibs/EdgeDetect.hpp; sourceTree = "<group>"; };
 		3F984D9C1C50C241000BE204 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = opencv2.framework; path = ../../Libs/opencv2iOS/opencv2.framework; sourceTree = "<group>"; };
 		3F9AE3F91C50DAA900B87691 /* ELCImagePicker */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ELCImagePicker; path = ../../Libs/ELCImagePicker; sourceTree = "<group>"; };
+		3F9AE4061C51BF4700B87691 /* libMakeLib_v1_0_EdgeImg_release.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg_release.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg_release.a; sourceTree = "<group>"; };
+		3FC3970B1C51F8F900092461 /* libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a; sourceTree = "<group>"; };
+		3FC3970E1C51F9F200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a; sourceTree = "<group>"; };
+		3FC397101C51FABE00092461 /* libMakeLib_v1_0_EdgeImg_r_device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMakeLib_v1_0_EdgeImg_r_device.a; path = ../../Libs/testLibs/libMakeLib_v1_0_EdgeImg_r_device.a; sourceTree = "<group>"; };
+		3FC397391C52150600092461 /* SIFTbyHess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIFTbyHess.h; path = ../../../Libs/SIFTbyHessiOS/SIFTbyHess.h; sourceTree = "<group>"; };
+		3FC3973A1C52150600092461 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../Libs/SIFTbyHessiOS/stdafx.h; sourceTree = "<group>"; };
+		3FC397541C52181E00092461 /* imgfeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = imgfeatures.h; path = ../../../Libs/SIFTbyHessiOS/imgfeatures.h; sourceTree = "<group>"; };
+		3FC397551C52181E00092461 /* kdtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdtree.h; path = ../../../Libs/SIFTbyHessiOS/kdtree.h; sourceTree = "<group>"; };
+		3FC397561C52181E00092461 /* minpq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = minpq.h; path = ../../../Libs/SIFTbyHessiOS/minpq.h; sourceTree = "<group>"; };
+		3FC397571C52181E00092461 /* sift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sift.h; path = ../../../Libs/SIFTbyHessiOS/sift.h; sourceTree = "<group>"; };
+		3FC397581C52181E00092461 /* SIFTbyHess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SIFTbyHess.h; path = ../../../Libs/SIFTbyHessiOS/SIFTbyHess.h; sourceTree = "<group>"; };
+		3FC397591C52181E00092461 /* stdafx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = stdafx.h; path = ../../../Libs/SIFTbyHessiOS/stdafx.h; sourceTree = "<group>"; };
+		3FC3975A1C52181E00092461 /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = utils.h; path = ../../../Libs/SIFTbyHessiOS/utils.h; sourceTree = "<group>"; };
+		3FC3975B1C52181E00092461 /* xform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xform.h; path = ../../../Libs/SIFTbyHessiOS/xform.h; sourceTree = "<group>"; };
+		3FC3975C1C52182D00092461 /* libtestSIFTLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtestSIFTLib.a; path = ../../Libs/SIFTbyHessiOS/libtestSIFTLib.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +69,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F984D9D1C50C241000BE204 /* opencv2.framework in Frameworks */,
-				3F984D9A1C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a in Frameworks */,
+				3FC3975D1C52182D00092461 /* libtestSIFTLib.a in Frameworks */,
+				3FC397141C51FD5200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a in Frameworks */,
+				3FC397111C51FABE00092461 /* libMakeLib_v1_0_EdgeImg_r_device.a in Frameworks */,
+				3FC397121C51FD4F00092461 /* libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a in Frameworks */,
+				3FC397131C51FD5100092461 /* libMakeLib_v1_0_EdgeImg_release.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +102,16 @@
 		3F984D721C5069AB000BE204 /* ImgProcApp_v1 */ = {
 			isa = PBXGroup;
 			children = (
+				3FC397541C52181E00092461 /* imgfeatures.h */,
+				3FC397551C52181E00092461 /* kdtree.h */,
+				3FC397561C52181E00092461 /* minpq.h */,
+				3FC397571C52181E00092461 /* sift.h */,
+				3FC397581C52181E00092461 /* SIFTbyHess.h */,
+				3FC397591C52181E00092461 /* stdafx.h */,
+				3FC3975A1C52181E00092461 /* utils.h */,
+				3FC3975B1C52181E00092461 /* xform.h */,
+				3FC397391C52150600092461 /* SIFTbyHess.h */,
+				3FC3973A1C52150600092461 /* stdafx.h */,
 				3F984D9B1C50C1C5000BE204 /* EdgeDetect.hpp */,
 				3F984D761C5069AB000BE204 /* AppDelegate.h */,
 				3F984D771C5069AB000BE204 /* AppDelegate.m */,
@@ -110,8 +142,12 @@
 		3F984D981C50C193000BE204 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3FC3975C1C52182D00092461 /* libtestSIFTLib.a */,
+				3FC397101C51FABE00092461 /* libMakeLib_v1_0_EdgeImg_r_device.a */,
+				3FC3970E1C51F9F200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a */,
+				3F9AE4061C51BF4700B87691 /* libMakeLib_v1_0_EdgeImg_release.a */,
+				3FC3970B1C51F8F900092461 /* libMakeLib_v1_0_EdgeImg_d_sim_BitYes_ArcNO.a */,
 				3F984D9C1C50C241000BE204 /* opencv2.framework */,
-				3F984D991C50C1B1000BE204 /* libMakeLib_v1_0_EdgeImg.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -303,12 +339,16 @@
 		3F984D881C5069AB000BE204 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
 				HEADER_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
 				INFOPLIST_FILE = ImgProcApp_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
 				PRODUCT_BUNDLE_IDENTIFIER = "ictwaylab.ImgProcApp-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -317,12 +357,15 @@
 		3F984D891C5069AB000BE204 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
 				HEADER_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
 				INFOPLIST_FILE = ImgProcApp_v1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "/Users/ictway/Desktop/Work_SHKim/Libs/**";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "ictwaylab.ImgProcApp-v1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
