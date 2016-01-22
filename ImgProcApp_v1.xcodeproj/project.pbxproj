@@ -25,6 +25,7 @@
 		3FC397141C51FD5200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3970E1C51F9F200092461 /* libMakeLib_v1_0_EdgeImg_d_i_BitYes_ArcNO.a */; };
 		3FC3975D1C52182D00092461 /* libtestSIFTLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3975C1C52182D00092461 /* libtestSIFTLib.a */; };
 		3FC397601C5220AC00092461 /* libtestSIFTLib_r_device.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FC3975F1C5220AC00092461 /* libtestSIFTLib_r_device.a */; };
+		3FC397621C52267600092461 /* testCommit.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC397611C52267600092461 /* testCommit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,6 +64,7 @@
 		3FC3975B1C52181E00092461 /* xform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = xform.h; path = ../../../Libs/SIFTbyHessiOS/xform.h; sourceTree = "<group>"; };
 		3FC3975C1C52182D00092461 /* libtestSIFTLib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtestSIFTLib.a; path = ../../Libs/SIFTbyHessiOS/libtestSIFTLib.a; sourceTree = "<group>"; };
 		3FC3975F1C5220AC00092461 /* libtestSIFTLib_r_device.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtestSIFTLib_r_device.a; path = ../../Libs/SIFTbyHessiOS/libtestSIFTLib_r_device.a; sourceTree = "<group>"; };
+		3FC397611C52267600092461 /* testCommit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCommit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +123,7 @@
 				3F984D811C5069AB000BE204 /* LaunchScreen.storyboard */,
 				3F984D841C5069AB000BE204 /* Info.plist */,
 				3F984D731C5069AB000BE204 /* Supporting Files */,
+				3FC397611C52267600092461 /* testCommit.m */,
 			);
 			path = ImgProcApp_v1;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				3F984D951C50A2B8000BE204 /* ImageProcessing.m in Sources */,
 				3F984D781C5069AB000BE204 /* AppDelegate.m in Sources */,
 				3F984D911C509AA3000BE204 /* ImageProcInfoViewController.m in Sources */,
+				3FC397621C52267600092461 /* testCommit.m in Sources */,
 				3F984D751C5069AB000BE204 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
