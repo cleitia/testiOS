@@ -30,7 +30,7 @@
     IplImage *testIplImg = 0;
     if (!testIplImg)
         NSLog(@"IplImage is NULL");
-    test.ExtractFeatures(testIplImg);
+//    test.ExtractFeatures(testIplImg);
     [pImageView setImage:originImage];
     [super viewDidLoad];
 }
