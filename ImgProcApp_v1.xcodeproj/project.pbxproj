@@ -34,6 +34,7 @@
 		3FC397921C55F5E400092461 /* ELCOverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC397911C55F5E400092461 /* ELCOverlayImageView.m */; };
 		3FC397AE1C56111200092461 /* ELCModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC397AC1C56111200092461 /* ELCModalViewController.m */; };
 		3FC397AF1C56111200092461 /* ELCModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FC397AD1C56111200092461 /* ELCModalViewController.xib */; };
+		3FC397B51C561B2100092461 /* ELCModalViewControllerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FC397B41C561B2100092461 /* ELCModalViewControllerDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +94,8 @@
 		3FC397AB1C56111200092461 /* ELCModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELCModalViewController.h; sourceTree = "<group>"; };
 		3FC397AC1C56111200092461 /* ELCModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELCModalViewController.m; sourceTree = "<group>"; };
 		3FC397AD1C56111200092461 /* ELCModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ELCModalViewController.xib; sourceTree = "<group>"; };
+		3FC397B31C561B2100092461 /* ELCModalViewControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCModalViewControllerDelegate.h; path = ../ELCModalViewControllerDelegate.h; sourceTree = "<group>"; };
+		3FC397B41C561B2100092461 /* ELCModalViewControllerDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ELCModalViewControllerDelegate.m; path = ../ELCModalViewControllerDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +156,8 @@
 				3F984D811C5069AB000BE204 /* LaunchScreen.storyboard */,
 				3F984D841C5069AB000BE204 /* Info.plist */,
 				3F984D731C5069AB000BE204 /* Supporting Files */,
+				3FC397B31C561B2100092461 /* ELCModalViewControllerDelegate.h */,
+				3FC397B41C561B2100092461 /* ELCModalViewControllerDelegate.m */,
 				3FC397AB1C56111200092461 /* ELCModalViewController.h */,
 				3FC397AC1C56111200092461 /* ELCModalViewController.m */,
 				3FC397AD1C56111200092461 /* ELCModalViewController.xib */,
@@ -304,6 +309,7 @@
 				3FC397671C55BE6C00092461 /* testFileIO.cpp in Sources */,
 				3F984D911C509AA3000BE204 /* ImageProcInfoViewController.m in Sources */,
 				3F984D751C5069AB000BE204 /* main.m in Sources */,
+				3FC397B51C561B2100092461 /* ELCModalViewControllerDelegate.m in Sources */,
 				3FC3978A1C55F5C400092461 /* ELCAssetCell.m in Sources */,
 				3FC397861C55F5B400092461 /* ELCAlbumPickerController.m in Sources */,
 				3FC397881C55F5BE00092461 /* ELCAsset.m in Sources */,

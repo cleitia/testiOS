@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ELCImagePickerHeader.h"
 
-@interface ELCModalViewController : UIViewController
+
+@interface ELCModalViewController : UIViewController <ELCImagePickerControllerDelegate, UINavigationControllerDelegate, UIScrollViewDelegate>
 @property (strong, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (nonatomic, strong) NSArray *chosenImages;
 
