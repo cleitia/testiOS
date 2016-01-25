@@ -10,6 +10,7 @@
 #import "ImageProcessing.h"
 #include "EdgeDetect.hpp"
 #include "SIFTbyHess.h"
+#include "testFileIO.hpp"
 
 @interface ViewController ()
 
@@ -30,6 +31,15 @@
     IplImage *testIplImg = 0;
     if (!testIplImg)
         NSLog(@"IplImage is NULL");
+//    saveTXTFileUserPath();
+    FILE *fin1 = fopen("/Users/ictway/Desktop/test.txt", "w");
+    if (!fin1)
+        printf("%s is NULL!\n", "test.txt");
+    fprintf(fin1, "test File IO2222\n");
+    fclose(fin1);
+//    saveTXTFile("testFileIO.txt");
+
+    
 //    test.ExtractFeatures(testIplImg);
     [pImageView setImage:originImage];
     [super viewDidLoad];
