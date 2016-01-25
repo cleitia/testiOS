@@ -18,6 +18,7 @@
 
 @implementation ViewController
 @synthesize pImageProcInfoViewController;
+@synthesize pELCModalViewController;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -56,6 +57,16 @@
     [self presentViewController:self.pImageProcInfoViewController animated:NO completion:nil];
 }
 
+- (IBAction)PushELCModalView:(id)sender {
+    // ELCModalViewController.xib 를 로드해서 객체를 생성합니다.
+    if(self.pELCModalViewController == nil){
+        ELCModalViewController *viewController = [[ELCModalViewController alloc]initWithNibName:@"ELCModalViewController" bundle:nil];
+        self.pELCModalViewController = viewController;
+    }
+    
+    [self presentViewController:self.pELCModalViewController animated:NO completion:nil];
+}
+
 - (IBAction)runGeneralPicker // 사진앨범에서 이미지 선택
 {
     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
@@ -66,9 +77,7 @@
     [self presentViewController:picker animated:YES completion:nil];
 }
 
-- (IBAction)runELCPicker
-{
-}
+
 
 - (IBAction)saveImage // 현재 사진을 카메라 롤에 저장합니다.
 {

@@ -42,7 +42,7 @@
                                     </barButtonItem>
                                     <barButtonItem systemItem="organize" id="RbK-mM-4Wd">
                                         <connections>
-                                            <action selector="runELCPicker" destination="BYZ-38-t0r" id="37i-b3-c5d"/>
+                                            <action selector="PushELCModalView:" destination="BYZ-38-t0r" id="omW-KM-vmu"/>
                                         </connections>
                                     </barButtonItem>
                                     <barButtonItem systemItem="reply" id="5dZ-pv-WaC">
@@ -95,6 +95,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
+                        <outlet property="ELCButton" destination="RbK-mM-4Wd" id="QGy-DY-hhz"/>
                         <outlet property="infoButton" destination="1et-Zn-ner" id="M7D-Ap-JAz"/>
                         <outlet property="pImageView" destination="9v5-5I-Zcj" id="wGF-lt-E78"/>
                     </connections>
