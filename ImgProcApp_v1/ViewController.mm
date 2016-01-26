@@ -31,13 +31,13 @@
     CSIFT test;
     IplImage *testIplImg = 0;
     if (!testIplImg)
-        NSLog(@"IplImage is NULL");
+        NSLog(@"IplImage is Loaded");
 //    saveTXTFileUserPath();
-    FILE *fin1 = fopen("/Users/ictway/Desktop/test.txt", "w");
-    if (!fin1)
-        printf("%s is NULL!\n", "test.txt");
-    fprintf(fin1, "test File IO2222\n");
-    fclose(fin1);
+//    FILE *fin1 = fopen("/Users/ictway/Desktop/test.txt", "w");
+//    if (!fin1)
+//        printf("%s is NULL!\n", "test.txt");
+//    fprintf(fin1, "test File IO2222\n");
+//    fclose(fin1);
 //    saveTXTFile("testFileIO.txt");
 
     
@@ -189,6 +189,14 @@
     
     return cvMat;
 }
+
+//- (IplImage)IplImageFromUIImage:(UIImage *)image
+//{
+//    CGColorSpaceRef colorSpace = CGImageGetColorSpace(image.CGImage);
+//    CGFloat cols = image.size.width;
+//    CGFloat rows = image.size.height;
+//    
+//}
 
 - (cv::Mat)cvMatGrayFromUIImage:(UIImage *)image
 {
